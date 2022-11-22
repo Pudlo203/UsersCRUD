@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context>
+    <Resource name="jdbc/users"
+              auth="Container"
+              type="javax.sql.DataSource"
+              username="root"
+              password="coderslab"
+              driverClassName="com.mysql.jdbc.Driver"
+              connectionProperties="useUnicode=yes;characterEncoding=utf8;serverTimezone=UTC"
+              url="jdbc:mysql://localhost:3306/work3"
+              maxTotal="100"
+              maxIdle="30"
+              maxWaitMillis="10000" />
+</Context>
+
+<!--        jdbc/users – nazwa zasobu, z którego będziemy korzystali.-->
+<!--        username - login do bazy danych-->
+<!--        password - hasło do bazy danych-->
+<!--        url - adres url bazy danych-->
